@@ -36,4 +36,23 @@ An end-to-end project that fine-tunes a DistilBERT model for sequence classifica
 ---
 
 ## 📁 Project Structure
+├── huggingface.py # Inference script: Load model, scrape webpage, and classify content ├── transformer.py # Fine-tuning script: Data preprocessing, model fine-tuning, and training visualization ├── Dataset - Training Data.csv # Training dataset for fine-tuning ├── requirements.txt # Python dependencies └── README.md # Project documentation
+
+
+---
+
+## 🔥 Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Google Chrome (for Selenium WebDriver)
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your_username/web-content-classification.git
+   cd web-content-classification
 
